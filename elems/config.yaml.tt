@@ -30,13 +30,12 @@
 #                                                                              │
 # ─────────────────────────────────────────────────────────────────────────────┤
 <% define_locals do
-  variable :"beets.library_dir", as: :library_dir
-  variable :"music_dir",         as: :music_dir
+  variable :"music_dir", as: :music_dir
 end %>
 # ─────────────────────────────────────────────────────────────────────────────┘
 
 
-library: <%= local! :library_dir %>/library.db
+library: <%= local! :music_dir %>/library.db
 directory: <%= local! :music_dir %>
 asciify_paths: yes
 ui:
