@@ -1,4 +1,7 @@
 # => inherits: generic <= #
 
 
+music_dir: /data/audio/music
+
+
 # vim: set filetype=eruby.yaml :
