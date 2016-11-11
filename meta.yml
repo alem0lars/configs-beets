@@ -1,0 +1,8 @@
+elems:
+
+  - src:  ^(config\.yaml)$
+    dst:  '<%= xdg_config_home(:beets) %>/<1>'
+    only: f?beets
+    
+    
+# vim: set filetype=eruby.yaml :
